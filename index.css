@@ -1,0 +1,136 @@
+/* Definição de variáveis de cores */
+:root {
+    --cor-primaria: #345995;
+    --cor-secundaria: #eaeaea;
+    --cor-destaque: #e37b40;
+  }
+  
+  /* Estilo geral */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    color: var(--cor-primaria);
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+  
+  /* Estilo do botão */
+  .botao {
+    background-color: var(--cor-destaque);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: #c6633c;
+  }
+  
+  /* Estilo da seção de destaque */
+  #destaque {
+    background-color: var(--cor-destaque);
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  #destaque h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #destaque p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilo da seção de projetos */
+  #projetos {
+    padding: 3rem;
+  }
+  
+  #projetos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #projetos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #projetos li {
+    flex-basis: calc(33.33% - 1rem);
+  }
+  
+  #projetos li img {
+    width: 100%;
+    border-radius: 0.25rem;
+  }
+  
+  #projetos li h3 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  /* Estilo da seção sobre mim */
+  #sobre-mim {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #sobre-mim img {
+    width: 20%;
+    border-radius: 0;
+  }
